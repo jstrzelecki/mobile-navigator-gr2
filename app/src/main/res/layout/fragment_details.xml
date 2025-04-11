@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsFragment"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To są szczegóły o poziomie uwagi Maćka i Wiktora"
+        android:layout_margin="20dp"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:id="@+id/userNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="tu będzie info z Home"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/msgToThirdFragEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="info do trrzeciego fragmentu"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
