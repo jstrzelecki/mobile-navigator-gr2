@@ -11,9 +11,15 @@
     <TextView
         android:id="@+id/infoThirdFragmentTextView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="Tu będzie info od fragmentu DetailsFragment"
         android:gravity="center_horizontal|center_vertical"
         />
-
+    <Button
+        android:id="@+id/backHomeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back home"
+        android:layout_margin="50dp"
+        />
 </LinearLayout>

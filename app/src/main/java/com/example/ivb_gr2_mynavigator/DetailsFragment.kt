@@ -24,6 +24,7 @@ class DetailsFragment : Fragment() {
 
     val args: DetailsFragmentArgs by navArgs()
 
+
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -49,7 +50,7 @@ class DetailsFragment : Fragment() {
 
         view.findViewById<TextView>(R.id.userNameTextView).text = "dane z Home, userName=${args.userName}"
         view.findViewById<TextView>(R.id.userNameTextView).setOnClickListener{
-            val msg = view.findViewById<EditText>(R.id.msgToThirdFragEditText).toString()
+            val msg = view.findViewById<EditText>(R.id.msgToThirdFragEditText).text.toString()
             val action = DetailsFragmentDirections.detailsToThirdAction(message = msg)
             findNavController().navigate(action)
 
